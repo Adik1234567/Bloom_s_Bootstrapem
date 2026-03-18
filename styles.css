@@ -1,0 +1,66 @@
+nav{
+    background-color: white;
+    color: white;
+}
+
+*{
+    background-color: #4b0019;
+}
+
+.container{
+    background-color: white;
+}
+
+.navbar-brand{
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+.nav-text {
+    background-color: white;
+    color: #4b0019;
+}
+
+.box-2 {
+    background-color: #f9e5ec;
+}
+
+.deco-off {
+    text-decoration: none;
+}
+
+.contacs-img {
+    height: 1.2em;
+    vertical-align: middle;
+}
+
+.border-pink {
+    border-color: #f9e5ec;
+}
+
+.pink-text {
+    color: #a90a3f;
+}
+
+.bloom-img {
+    height: 1.5em;
+}
+
+.background-pink {
+    background-color: #f9e5ec;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.text-purple {
+    color: #4b0019;
+}
