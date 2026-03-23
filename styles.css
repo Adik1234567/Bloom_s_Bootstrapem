@@ -64,3 +64,14 @@ header {
 .text-purple {
     color: #4b0019;
 }
+
+.co-btn {
+    color: #a90a3f !important;
+    border-color: #a90a3f !important;
+    border-width: 2px !important;
+}
+
+.border-pink {
+    border-color: #f9e5ec !important;
+    color: #f9e5ec !important;
+}
