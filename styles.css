@@ -41,10 +41,6 @@ header {
     vertical-align: middle;
 }
 
-.border-pink {
-    border-color: #f9e5ec;
-}
-
 .pink-text {
     color: #a90a3f;
 }
@@ -65,7 +61,7 @@ header {
     color: #4b0019;
 }
 
-.co-btn {
+.cus-ord-btn {
     color: #a90a3f !important;
     border-color: #a90a3f !important;
     border-width: 2px !important;
@@ -74,4 +70,20 @@ header {
 .border-pink {
     border-color: #f9e5ec !important;
     color: #f9e5ec !important;
+}
+
+.invis-background {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.hibiscus-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hibiscus-text {
+    position: absolute;
+    bottom: 2em;
+    left: 5em;
 }
