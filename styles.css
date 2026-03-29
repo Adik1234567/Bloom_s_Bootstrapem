@@ -129,9 +129,8 @@ header {
 }
 
 .overlap-right {
-    margin-right: -10px;
-    margin-top: -70px;
     position: relative;
+    margin-left: -35px;
 }
 
 
