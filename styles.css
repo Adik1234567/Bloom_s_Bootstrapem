@@ -129,6 +129,5 @@ header {
 }
 
 .many-flower-border {
-    border-color: #a90a3f !important;
-    border-width: 3px !important;
+    border: 1px solid #e4c2cd !important;
 }
