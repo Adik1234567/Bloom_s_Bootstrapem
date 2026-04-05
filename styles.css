@@ -133,7 +133,18 @@ header {
     margin-left: -35px;
 }
 
-
 .many-flower-border {
     border: 1px solid #e4c2cd !important;
+}
+
+.red-background {
+    background-color: #a70b3e !important;
+}
+
+.white-background {
+    background-color: white !important;
+}
+
+.red-border {
+    border-color: #a70b3e !important;
 }
