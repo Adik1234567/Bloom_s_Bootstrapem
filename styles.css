@@ -7,10 +7,6 @@ nav{
     background-color: #4b0019;
 }
 
-.container{
-    background-color: white;
-}
-
 .navbar-brand{
     background-color: white;
 }
@@ -133,6 +129,12 @@ header {
     margin-left: -35px;
 }
 
+.overlap-right-more {
+    position: relative;
+    margin-bottom: -40px;
+    margin-left: -130px;
+}
+
 .many-flower-border {
     border: 2px solid #e4c2cd !important;
 }
@@ -147,4 +149,24 @@ header {
 
 .red-border {
     border-color: #a70b3e !important;
+}
+
+.pink-ish-background {
+    background-color: #f8d0e0 !important;
+}
+
+.lr-foot {
+    display: block;
+    height: 2px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    margin: 1em 0;
+}
+
+.lc-foot {
+    display: block;
+    width: 2px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    margin: 1em 0;
 }
