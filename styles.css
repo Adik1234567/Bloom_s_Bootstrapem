@@ -168,5 +168,64 @@ header {
     width: 2px;
     background: #FFFFFF;
     border-color: #FFFFFF;
-    margin: 1em 0;
+    margin: 1em 10px;
+}
+
+.white-pink-text {
+    color: #ff80ac;
+}
+
+.clutch-stars {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.social-size {
+    width: 20px;
+    height: 20px;
+}
+
+.social-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50% !important;
+}
+
+.border-white {
+    border-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+.footer-marquee {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.footer-marquee-track {
+    display: inline-flex;
+    align-items: center;
+    min-width: max-content;
+    animation: footer-marquee-scroll 14s linear infinite;
+}
+
+.footer-marquee-text {
+    display: inline-block;
+    color: white;
+    letter-spacing: 0.08em;
+    font: lighter 14px "Roboto", kanas;
+}
+
+@keyframes footer-marquee-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.position-right {
+    position: relative;
+    right: 10px;
 }
