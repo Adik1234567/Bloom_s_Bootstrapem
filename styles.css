@@ -81,13 +81,21 @@ header {
 .hibiscus-text {
     position: absolute;
     bottom: 2em;
-    left: 5em;
+    left: 2em;
 }
 
 .arrow-btn {
+    width: 48px;
+    height: 48px;
+    padding: 0 !important;
     border-color: #a90a3f !important;
     border-width: 2px !important;
     background-color: #a90a3f !important;
+}
+
+.sizes {
+    width: 24px;
+    height: 24px;
 }
 
 .triangle-btn {
@@ -96,7 +104,7 @@ header {
     border-width: 2px !important;
     background-color: white !important;
 }
- 
+
 .lr {
     display: block;
     height: 2px;
@@ -121,6 +129,11 @@ header {
 .overlap-up {
     margin-right: -10px;
     margin-top: -70px;
+    position: relative;
+}
+
+.demo {
+    right: 90px;
     position: relative;
 }
 
@@ -211,7 +224,6 @@ header {
 
 .footer-marquee-text {
     display: inline-block;
-    color: white;
     letter-spacing: 0.08em;
     font: lighter 14px "Roboto", kanas;
 }
@@ -221,11 +233,20 @@ header {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-25%);
     }
 }
 
 .position-right {
     position: relative;
     right: 10px;
+}
+
+.arrow-left {
+    width: 48px;
+    height: 48px;
+}
+
+.sides-padding {
+    padding: 12px 30px !important;
 }
