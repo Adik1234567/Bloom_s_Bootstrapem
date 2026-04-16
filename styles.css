@@ -225,7 +225,6 @@ header {
 .footer-marquee-text {
     display: inline-block;
     letter-spacing: 0.08em;
-    font: lighter 14px "Roboto", kanas;
 }
 
 @keyframes footer-marquee-scroll {
@@ -261,4 +260,9 @@ header {
     font-weight: bold;
     font-style: normal;
     font-family: "Roboto", kanas, serif;
+}
+
+.bloom-size-foot {
+    height: 4em;
+    vertical-align: middle;
 }
