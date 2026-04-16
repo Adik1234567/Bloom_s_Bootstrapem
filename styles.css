@@ -1,14 +1,5 @@
-nav{
-    background-color: white;
-    color: white;
-}
-
 *{
     background-color: #4b0019;
-}
-
-.navbar-brand{
-    background-color: white;
 }
 
 body {
@@ -17,11 +8,6 @@ body {
 
 header {
     background-color: white;
-}
-
-.nav-text {
-    background-color: white;
-    color: #5e3051;
 }
 
 .box-2 {
@@ -265,4 +251,63 @@ header {
 .bloom-size-foot {
     height: 4em;
     vertical-align: middle;
+}
+
+
+
+
+
+
+
+.flower-slider-track {
+    transition: opacity 0.28s ease;
+}
+
+.flower-slider-track.is-changing {
+    opacity: 0.35;
+}
+
+.flower-slide-slot {
+    display: flex;
+}
+
+.flower-card {
+    width: 100%;
+    background-color: #f9e5ec;
+}
+
+.flower-image-wrap {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1.25rem 1rem;
+}
+
+.flower-card-image {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.flower-divider {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.flower-card-title {
+    min-height: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 1199.98px) {
+    .flower-image-wrap {
+        min-height: 280px;
+    }
+
+    .flower-card-image {
+        max-height: 260px;
+    }
 }
