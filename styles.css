@@ -128,7 +128,7 @@ header {
 
 .overlap-up {
     margin-right: -10px;
-    margin-top: -70px;
+    margin-top: -40px;
     position: relative;
 }
 
@@ -249,4 +249,16 @@ header {
 
 .sides-padding {
     padding: 12px 30px !important;
+}
+
+.fancy-font {
+    font-weight: lighter;
+    font-style: normal;
+    font-family: "Roboto", kanas, serif;
+}
+
+.fancy-font-bold {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Roboto", kanas, serif;
 }
