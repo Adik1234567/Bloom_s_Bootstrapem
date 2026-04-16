@@ -113,13 +113,12 @@ header {
 }
 
 .overlap-up {
-    margin-right: -10px;
     margin-top: -40px;
     position: relative;
 }
 
 .demo {
-    right: 90px;
+    bottom: 35%;
     position: relative;
 }
 
@@ -172,6 +171,29 @@ header {
 
 .white-pink-text {
     color: #ff80ac;
+}
+
+.language-link {
+    color: #ff80ac !important;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    pointer-events: auto;
+}
+
+.language-link-active {
+    color: #ffffff !important;
+}
+
+.btn,
+button,
+a,
+[role="button"] {
+    position: relative;
+    z-index: 3;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .clutch-stars {
@@ -302,7 +324,7 @@ header {
     text-align: center;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1200px) {
     .flower-image-wrap {
         min-height: 280px;
     }
@@ -310,4 +332,8 @@ header {
     .flower-card-image {
         max-height: 260px;
     }
+}
+
+.strong {
+    font-weight: bold;
 }
